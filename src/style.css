@@ -1,3 +1,133 @@
 h1 {
     color: red;
+}body {
+  font-family: monospace, "Courier New", Courier;
+  /* margin: 0 20%; */
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #d9d9d9;
+}
+
+footer {
+  text-align: center;
+  margin: 20px 0;
+}
+.weather-app {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 800px;
+  min-width: 700px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.header,
+.body,
+.footer {
+  padding: 30px 0;
+  line-height: 2;
+}
+
+.big-img {
+  width: 150px;
+}
+
+.big-img:hover {
+  width: 155px;
+}
+
+.little-img {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  padding: 0;
+}
+
+.units {
+  position: relative;
+  top: -25px;
+  font-size: 20px;
+}
+
+.btn-outline-secondary {
+  text-align: left;
+  border: 1px solid #d9d9d9;
+  font: #d9d9d9;
+}
+
+.li-left {
+  text-align: right;
+}
+
+.li-right {
+  text-align: left;
+}
+
+.current-temp {
+  font-size: 50px;
+}
+
+.btn-outline-dark {
+  border: 1px solid #d9d9d9;
+}
+
+.temp-type {
+  text-decoration: none;
+  color: dimgray;
+}
+
+.fahrenheit:hover {
+  font-size: 20px;
+  text-decoration: none;
+  color: dimgray;
+}
+
+.btn-group {
+  margin-top: 15px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.btn-outline-secondary:hover {
+  background-color: white;
+}
+
+.lil-temp-right {
+  text-align: left;
+  color: #D4D5D6
+  
+}
+
+.lil-temp-left {
+  text-align: right;
+}
+
+.lil-temp-right,
+.lil-temp-left {
+  padding: 8px;
+}
+
+.light-font{
+  color: #D4D5D6
+}
+
+#weather-element:first-letter {
+  text-transform: capitalize;
+
+}
+
+
+
