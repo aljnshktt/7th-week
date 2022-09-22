@@ -120,13 +120,14 @@ footer {
   padding: 8px;
 }
 
-.light-font{
-  color: #D4D5D6
-}
 
 #weather-element:first-letter {
   text-transform: capitalize;
+}
 
+.units .active {
+  color: black;
+  cursor: default;
 }
 
 

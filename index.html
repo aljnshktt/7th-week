@@ -60,14 +60,14 @@
                     <li id="city"></li>
                     <li id="weather-element"></li>
                     <li><div class="row">
-                    <div class="li-left col" id="min-temperature-element"> <span class="light-font" >Min</span> 23</div>
-                    <div class="li-right col" id="max-temperature-element"> <span class="light-font" >Max</span> 28</div>
+                    <div class="li-left col ">H: <span id="min-temperature-element"></span>˚</div>
+                    <div class="li-right col ">L: <span id="max-temperature-element"></span>˚</div>
                   </div></li>
-                  <li><span class="current-temp" id="temperature-element">30</span> 
+                  <li><span class="current-temp" id="temperature-element"></span> 
                     <span class="units"> 
-                    <a href="#" class="temp-type" id="celsius-unit">˚C</a>
-                    <!-- |  -->
-                    <!-- <a href="#" class="temp-type" id="fahrenheit-unit">˚F</a> -->
+                    <a href="#" class="temp-type active" id="celsius-unit">˚C</a>
+                    | 
+                    <a href="#" class="temp-type active" id="fahrenheit-unit">˚F</a>
                 </span></div></li>
               </ul>
                 <div class="col-6">
@@ -79,8 +79,8 @@
               <ul>
                 <li id="date"></li>
                 <li id="humidity-element">Humidity: 80%</li>
-                <li id="wind-element">Wind: 12 km/h</li>
-                <li id="feels-like-element">Feels like: 26 C</li>
+                <li>Wind: <span id="wind-element"></span> km/h</li>
+                <li>Feels like: <span id="feels-like-element"></span>˚</li>
                 <li><div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
                   <button type="button" class="btn btn-outline-secondary">humidity</button>
                   <button type="button" class="btn btn-outline-secondary">wind</button>
@@ -127,7 +127,7 @@
             </div>
             <div class="col">
               <div>Sun</div>
-              <div class="col" ><img class="little-img" src="src/rainy-day (1).png" alt="" /></div>
+              <div class="col" ><img class="little-img" src="./src/rainy-day (1).png" alt="" /></div>
               <div class="row">
                 <div class="col-6 lil-temp-left">24˚</div>
                 <div class="col-6 lil-temp-right">21˚</div>
