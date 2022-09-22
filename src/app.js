@@ -77,4 +77,3 @@ fahrenheitLink.addEventListener("click", convertToFahrenheit);
 let celsiusLink = document.querySelector("#celsius-unit");
 celsiusLink.addEventListener("click", convertToCelsius);
 
-search ("New York")
